@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>css预编译 Stylus</title>
+    <link rel="stylesheet" type="text/css" href="/common.css">
+</head>
+
+<body>
+    <!-- Stylus 比sass 更优秀的地方，sass 是基于ruby，对中文支持不友好，服务器在美国，容易被墙
+ stylus 基于node.js的 属于npm包的 安装使用都方便
+ 最后编译出来的都是css 所以什么都可以用 -->
+    <div id="app" class="container">
+        <div class="todo-wrapper">
+            <div class="todo-header">
+                <div class="overlay"></div>
+                <time class="clearfix">
+                <span class="day">8</span>
+                <span class="dayofweek">星期二</span>
+                <span class="month">8, 2017</span>
+            </time>
+                <div class="add-circle">
+                    <i class="fa fa-plus"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
