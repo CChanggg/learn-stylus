@@ -1,0 +1,12 @@
+.square {
+    background: #0000ff;
+    border-radius: 10px;
+}
+.button {
+    width: 200px;
+    height: 200px;
+    background: #00ff00
+}
+.button:hover {
+    background-color: #0000ff;
+}
